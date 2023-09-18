@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Users({users}){
     return(
-        <ul className="font-bold text-white mt-12">
+        <ul className="font-bold text-white mt-4">
         {users.map((user) =>(
           <Link href={`/users/${user.id}`} key={user.id}>
           <li className="bg-blue-900 mb-2 p-4 rounded-md flex justify-between items-center transition-colors duration-500 hover:bg-blue-700">

@@ -8,7 +8,7 @@ async function getUser(id){
 async function UserPage({ params }) {
     const user = await getUser(params.id);
     
-    return <div className="bg-blue-900 hover:bg-blue-700 p-10 rounded-md">
+    return <div className="bg-blue-700 hover:bg-blue-500 p-10 rounded-md">
 
         <img src={user.avatar} alt="" className="m-auto my-4"/>
         

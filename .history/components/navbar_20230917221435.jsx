@@ -2,15 +2,15 @@ import Link from 'next/link'
 
 function Navbar(){
     return(
-        <nav className='bg-blue-900 mb-4 flex justify-between items-center px-20
-        p-3 font-bold text-white transition-colors duration-500 hover:bg-blue-700'>
-            <Link href="/">
+        <nav className='bg-slate-400 mb-4 flex justify-between items-center px-20
+        p-3 font-bold text-black'>
+            <Link href="/" >
                 Home
             </Link>
             <ul>
                 <li>
                     <Link href="/about">
-                        About
+                        About 
                     </Link>
                 </li>
             </ul>
